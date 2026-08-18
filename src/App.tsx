@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, type ReactNode } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import NavBar from './NavBar'
 import { PROJECTS, EXPERTISE, frauncesDisplay, frauncesBody } from './data'
+import suiteCama from './imports/suite---cama.png'
 
 /* ── Scroll reveal ──────────────────────────────────────────────────────────── */
 function useReveal(threshold = 0.08) {
@@ -116,7 +117,7 @@ function Hero() {
       {/* Image — ~63% */}
       <div className="order-1 md:order-2 md:flex-1 h-[60vh] md:h-auto overflow-hidden relative" style={{ backgroundColor: '#333' }}>
         <img
-          src="/src/imports/suite---cama.png"
+          src={suiteCama}
           alt="Interior arquitectónico con luz cálida y detalles refinados"
           className="w-full h-full object-cover"
           style={{ filter: 'brightness(0.88)' }}
