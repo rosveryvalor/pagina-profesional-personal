@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, type ReactNode } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import NavBar from './NavBar'
 import { PROJECTS, EXPERTISE, frauncesDisplay, frauncesBody } from './data'
-import suiteCama from './imports/suite---cama.png'
+import suiteCama from './imports/suite-cama.png'
 
 /* ── Scroll reveal ──────────────────────────────────────────────────────────── */
 function useReveal(threshold = 0.08) {
