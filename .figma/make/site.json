@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your interior design expertise with a visually stunning portfolio that connects your work, personality, and multidisciplinary skills.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

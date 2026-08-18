@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-ivory: #F5F2EC;
+  --color-stone: #D9D2C7;
+  --color-taupe: #A79D8E;
+  --color-warm-grey: #817B72;
+  --color-charcoal: #252520;
+  --color-terracotta: #A87862;
+  --color-parchment: #EDE9E2;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Instrument Sans', system-ui, sans-serif;
+  --font-mono: 'Space Mono', 'Courier New', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F5F2EC;
+  color: #252520;
+  font-family: 'Instrument Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #A87862;
+  color: #F5F2EC;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+section[id] {
+  scroll-margin-top: 64px;
+}
