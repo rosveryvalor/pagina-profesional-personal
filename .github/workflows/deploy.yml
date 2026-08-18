@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - adaptacion-github-pages
 
 permissions:
   contents: read
